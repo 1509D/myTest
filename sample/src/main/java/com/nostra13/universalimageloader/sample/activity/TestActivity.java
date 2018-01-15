@@ -24,6 +24,8 @@ public class TestActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.test);
 
+
+
         Log.e("myMessage",":");
 
         mWebView =(WebView) findViewById(R.id.webview);
@@ -98,6 +100,8 @@ public class TestActivity extends Activity {
         });
 
     }
-
+    private void test(){
+  Log.e("2","");
+    }
     }
 
