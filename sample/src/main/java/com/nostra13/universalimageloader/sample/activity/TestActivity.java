@@ -27,6 +27,8 @@ public class TestActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.test);
 
+        Log.e("myMessage",":");
+
         mWebView =(WebView) findViewById(R.id.webview);
 
         WebSettings webSettings = mWebView.getSettings();
