@@ -1,18 +1,15 @@
 package com.nostra13.universalimageloader.sample.activity;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
-import android.webkit.JsResult;
 import android.webkit.ValueCallback;
-import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.Button;
+
 import com.nostra13.universalimageloader.sample.R;
 
 /**
@@ -91,7 +88,7 @@ public class TestActivity extends Activity {
 //
 //        });
 
-
+        Log.e("myMessage",":");
 
         mWebView.evaluateJavascript("javascript:callJS()", new ValueCallback<String>() {
             @Override
