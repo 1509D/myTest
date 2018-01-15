@@ -28,6 +28,7 @@ public class TestActivity extends Activity {
         setContentView(R.layout.test);
 
         Log.e("myMessage",":");
+        Log.e("myMessage",":p");
 
         mWebView =(WebView) findViewById(R.id.webview);
 
