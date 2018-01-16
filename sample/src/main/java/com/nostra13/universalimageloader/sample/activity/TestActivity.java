@@ -102,5 +102,9 @@ public class TestActivity extends Activity {
     private void test(){
   Log.e("2","");
     }
+
+    private void newFun() {
+        Log.e("myMesssage","new 2.0");
+    }
     }
 
