@@ -32,3 +32,4 @@ build/
 
 # Private
 signing.properties
+/README.md
