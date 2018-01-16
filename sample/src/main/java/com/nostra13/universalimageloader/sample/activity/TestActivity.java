@@ -102,5 +102,11 @@ public class TestActivity extends Activity {
     private void test(){
   Log.e("2","");
     }
+
+    private void newBranchs() {
+        Log.e("new","fix bugs");
+    }
+
+
     }
 
